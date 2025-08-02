@@ -1,1 +1,22 @@
 /* your code */
+table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 30px auto;
+      font-family: Arial, sans-serif;
+    }
+    thead {
+      background-color: #003366;
+      color: white;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tbody tr:hover {
+      background-color: #e0f7fa;
+    }
